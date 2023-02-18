@@ -23,20 +23,20 @@
 <body class="gilroy">
 <section class="bg-xanh p20">
     <div class="container">
-        <div class="row">
-            <div class="col-2">
+        <div class="row pt-2 pt-md-3">
+            <div class="col-2 d-flex flex-column justify-content-center">
                 <img src="images/logo.png" alt="NCB - Mở triệu ước mơ">
             </div>
-            <div class="d-flex justify-content-around bold align-items-center col-8 menu">
+            <div class="d-flex justify-content-around bold align-items-center col-8 menu ps-0 ps-md-2">
                 <a class="text-white item-menu active" href="">MỞ TRIỆU ƯỚC MƠ</a>
                 <a class="text-white item-menu" href="">THƯ VIỆN ƯỚC MƠ </a>
                 <a class="text-white item-menu" href="">CHIA SẺ ƯỚC MƠ</a>
             </div>
-            <div class="col-2">
+            <div class="col-2 ps-0 ps-md-2">
                 <div class="d-flex justify-content-evenly align-items-center bg-login">
                     <span class="semibold text-white">ĐĂNG NHẬP</span>
                     <div class="">
-                        <img class="ps-2" src="images/user.png" alt="">
+                        <img class=" ps-0 ps-md-2" src="images/user.png" alt="">
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
 
         <div class="position-relative">
             <img src="images/bg-thuvien.png" alt="">
-            <div class="position-absolute w-100" style="top: 18%">
+            <div class="position-absolute w-100 div-count">
                 <div class="text-center text-white">
                     <div class="p50">
                         Đã có
@@ -66,279 +66,376 @@
 <section class="chia-se bg-xanh py-4">
 
     <div class="container">
-        <div class="wrap-tab">
-            <div class="tab-cate active" onclick="openTab('tab1')">tab1</div>
-            <div class="tab-cate" onclick="openTab('tab2')">tab2</div>
-            <div class="tab-cate" onclick="openTab('tab3')">tab3</div>
+        <div class="d-flex justify-content-between p18">
+            <div class="wrap-tab">
+                <div class="tab-cate active" onclick="openTab('tab1')">Khám phá</div>
+                <div class="tab-cate" onclick="openTab('tab2')">Chinh Phục</div>
+                <div class="tab-cate" onclick="openTab('tab3')">Thành công</div>
+            </div>
+            <div class="wrap-search">
+                <form action="">
+                    <input class="input-search" type="text" placeholder="| Nhập tên người chơi">
+                    <button class="btn-search">
+                        <span>Tìm kiếm</span>
+                        <img src="images/icon-search.png" alt="">
+                    </button>
+
+                </form>
+            </div>
         </div>
 
-        <div id="tab1" class="w3-container category">
-            <h2>tab1</h2>
-            <p>tab1 is the capital category of England.</p>
-        </div>
+        <div class="mt-5">
+            <div id="tab1" class="category">
+                <div class="row">
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <div id="tab2" class="w3-container category" style="display:none">
-            <h2>tab2</h2>
-            <p>tab2 is the capital of France.</p>
-        </div>
+            <div id="tab2" class="category" style="display:none">
+                <div class="row">
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <div id="tab3" class="w3-container category" style="display:none">
-            <h2>tab3</h2>
-            <p>tab3 is the capital of Japan.</p>
+            <div id="tab3" class="category" style="display:none">
+                <div class="row">
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4 col-xl-3">
+                        <div class="user-story text-center">
+                            <div class="border-avatar">
+                                <img src="images/kh1.png" alt="">
+                            </div>
+                            <div class="user-info mt-2">
+                                <div class="bold p20">Nguyen Van ANH</div>
+                                <div class="semibold p18 mb-3">
+                                    Người kể chuyện
+                                </div>
+                                <div class="text-start normal p12">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/heart.png" alt="">
+                                    <span>99</span>
+                                </div>
+                                <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                    <img src="images/paper-plane1.png" alt="">
+                                    <span>99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
 
-
+</section>
+<section class="bg-xanh">
     <div class="container">
-        <div class="row">
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="user-story text-center">
-                    <div class="border-avatar">
-                        <img src="images/kh1.png" alt="">
-                    </div>
-                    <div class="user-info mt-2">
-                        <div class="bold p20">Nguyen Van ANH</div>
-                        <div class="semibold p18 mb-3">
-                            Người kể chuyện
-                        </div>
-                        <div class="text-start normal p12">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/heart.png" alt="">
-                            <span>99</span>
-                        </div>
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/paper-plane1.png" alt="">
-                            <span>99</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="user-story text-center">
-                    <div class="border-avatar">
-                        <img src="images/kh1.png" alt="">
-                    </div>
-                    <div class="user-info mt-2">
-                        <div class="bold p20">Nguyen Van ANH</div>
-                        <div class="semibold p18 mb-3">
-                            Người kể chuyện
-                        </div>
-                        <div class="text-start normal p12">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/heart.png" alt="">
-                            <span>99</span>
-                        </div>
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/paper-plane1.png" alt="">
-                            <span>99</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="user-story text-center">
-                    <div class="border-avatar">
-                        <img src="images/kh1.png" alt="">
-                    </div>
-                    <div class="user-info mt-2">
-                        <div class="bold p20">Nguyen Van ANH</div>
-                        <div class="semibold p18 mb-3">
-                            Người kể chuyện
-                        </div>
-                        <div class="text-start normal p12">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/heart.png" alt="">
-                            <span>99</span>
-                        </div>
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/paper-plane1.png" alt="">
-                            <span>99</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="user-story text-center">
-                    <div class="border-avatar">
-                        <img src="images/kh1.png" alt="">
-                    </div>
-                    <div class="user-info mt-2">
-                        <div class="bold p20">Nguyen Van ANH</div>
-                        <div class="semibold p18 mb-3">
-                            Người kể chuyện
-                        </div>
-                        <div class="text-start normal p12">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/heart.png" alt="">
-                            <span>99</span>
-                        </div>
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/paper-plane1.png" alt="">
-                            <span>99</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-lg-4 col-xl-3">
-                <div class="user-story text-center">
-                    <div class="border-avatar">
-                        <img src="images/kh1.png" alt="">
-                    </div>
-                    <div class="user-info mt-2">
-                        <div class="bold p20">Nguyen Van ANH</div>
-                        <div class="semibold p18 mb-3">
-                            Người kể chuyện
-                        </div>
-                        <div class="text-start normal p12">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/heart.png" alt="">
-                            <span>99</span>
-                        </div>
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/paper-plane1.png" alt="">
-                            <span>99</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="text-center mb-5">
+            <div class="title iciel px-5 py-2 mx-auto">Thư viện uớc mơ</div>
         </div>
-        <div class="slide-user-story">
-            <div class="px-2">
-                <div class="user-story text-center">
-                    <div class="border-avatar">
-                        <img src="images/kh1.png" alt="">
+        <div class="row">
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <img src="images/download-img.png" alt="">
+
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="d-flex flex-column justify-content-center">
+                    <h3 class="text-center text-white mb-4">Chủ đề giấc mơ bạn chia sẻ</h3>
+
+                    <div class="wrap-tab mx-auto">
+                        <div class="tab-cate active">Khám phá</div>
+                        <div class="tab-cate">Chinh Phục</div>
+                        <div class="tab-cate">Thành công</div>
                     </div>
-                    <div class="user-info mt-2">
-                        <div class="bold p20">Nguyen Van ANH</div>
-                        <div class="semibold p18 mb-3">
-                            Người kể chuyện
-                        </div>
-                        <div class="text-start normal p12">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/heart.png" alt="">
-                            <span>99</span>
-                        </div>
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/paper-plane1.png" alt="">
-                            <span>99</span>
+
+                    <textarea class="text-dream my-4" placeholder="Chia sẻ ước mơ của bạn...">
+
+                    </textarea>
+                    <div class="text-center">
+                        <div class="title iciel mx-auto d-flex">
+                            <span>Gửi giấc mơ</span>
+                            <img class="ms-3" src="images/paper-airplane.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="px-2">
-                <div class="user-story text-center">
-                    <div class="border-avatar">
-                        <img src="images/kh1.png" alt="">
-                    </div>
-                    <div class="user-info mt-2">
-                        <div class="bold p20">Nguyen Van ANH</div>
-                        <div class="semibold p18 mb-3">
-                            Người kể chuyện
-                        </div>
-                        <div class="text-start normal p12">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/heart.png" alt="">
-                            <span>99</span>
-                        </div>
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/paper-plane1.png" alt="">
-                            <span>99</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="px-2">
-                <div class="user-story text-center">
-                    <div class="border-avatar">
-                        <img src="images/kh1.png" alt="">
-                    </div>
-                    <div class="user-info mt-2">
-                        <div class="bold p20">Nguyen Van ANH</div>
-                        <div class="semibold p18 mb-3">
-                            Người kể chuyện
-                        </div>
-                        <div class="text-start normal p12">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/heart.png" alt="">
-                            <span>99</span>
-                        </div>
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/paper-plane1.png" alt="">
-                            <span>99</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="px-2">
-                <div class="user-story text-center">
-                    <div class="border-avatar">
-                        <img src="images/kh1.png" alt="">
-                    </div>
-                    <div class="user-info mt-2">
-                        <div class="bold p20">Nguyen Van ANH</div>
-                        <div class="semibold p18 mb-3">
-                            Người kể chuyện
-                        </div>
-                        <div class="text-start normal p12">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/heart.png" alt="">
-                            <span>99</span>
-                        </div>
-                        <div class="button-heart d-flex justify-content-evenly align-items-center">
-                            <img src="images/paper-plane1.png" alt="">
-                            <span>99</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
+
 </section>
 
 <footer class="bg-xanh position-relative">
@@ -448,6 +545,12 @@
         }
         document.getElementById(tabName).style.display = "block";
     }
+    $(document).ready(function () {
+        $(".tab-cate").click(function () {
+            $(this).addClass("active");
+            $(this).siblings().removeClass("active");
+        })
+    })
 
 
 </script>

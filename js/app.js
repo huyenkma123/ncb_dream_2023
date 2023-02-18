@@ -18,7 +18,14 @@ $(document).ready(function(){
                 settings: {
                     arrows: false,
                 }
-            }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                }
+            },
         ]
     });
 
@@ -29,6 +36,21 @@ $(document).ready(function(){
         slidesToShow: 3,
         autoplay: false,
         autoplaySpeed: 3000,
-
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                }
+            },
+        ]
     });
 });

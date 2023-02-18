@@ -63,25 +63,94 @@ img {
     font-size: 16px;
   }
 }
+@media (max-width: 800px) {
+  .p20 {
+    font-size: 14px;
+  }
+}
 
 .p60 {
   font-size: 60px;
   line-height: 70px;
+}
+@media (max-width: 1000px) {
+  .p60 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .p60 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .p60 {
+    font-size: 25px;
+    line-height: 30px;
+  }
 }
 
 .p55 {
   font-size: 55px;
   line-height: 65px;
 }
+@media (max-width: 1000px) {
+  .p55 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .p55 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .p55 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
 
 .p50 {
   font-size: 50px;
   line-height: 60px;
 }
+@media (max-width: 1000px) {
+  .p50 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .p50 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .p50 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
 
 .p18 {
   font-size: 18px;
   line-height: 20px;
+}
+@media (max-width: 1000px) {
+  .p18 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .p18 {
+    font-size: 14px;
+  }
 }
 
 .p14 {
@@ -108,9 +177,33 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
 }
+@media (max-width: 767px) {
+  .bg-login {
+    font-size: 12px;
+    padding: 10px 2px;
+  }
+}
+@media (max-width: 575px) {
+  .bg-login {
+    font-size: 8px;
+    padding: 3px 2px;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu {
+    font-size: 12px;
+  }
+}
+@media (max-width: 575px) {
+  .menu {
+    font-size: 8px;
+  }
+}
 
 .menu a {
   text-decoration: none;
+  text-align: center;
 }
 
 /*.menu .active::after{*/
@@ -123,7 +216,17 @@ img {
   position: relative;
   padding: 14px 9px;
   background: url("../images/bg-menu1.png") no-repeat center;
-  background-size: cover;
+  background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+  .menu .active {
+    padding: 10px 5px;
+  }
+}
+@media (max-width: 575px) {
+  .menu .active {
+    padding: 9px 4px;
+  }
 }
 
 .artist-story {
@@ -138,6 +241,13 @@ img {
   width: fit-content;
   color: #ffffff;
   font-size: 50px;
+  padding: 10px 60px 20px;
+}
+@media (max-width: 767px) {
+  .title {
+    font-size: 20px;
+    padding: 8px 40px 16px;
+  }
 }
 
 .artist-content {
@@ -206,6 +316,10 @@ img {
   margin-bottom: 40px;
 }
 
+.category .user-story {
+  padding: 75px 5px 5px;
+}
+
 .border-avatar {
   border: 3px solid #B2E5FF;
   border-radius: 11px;
@@ -220,6 +334,11 @@ img {
 .user-info {
   height: 150px;
   overflow-y: scroll;
+}
+@media (max-width: 767px) {
+  .user-info {
+    height: 115px;
+  }
 }
 
 /* width */
@@ -271,16 +390,19 @@ img {
 .fly1 {
   top: 50%;
   right: 65%;
+  max-width: 35%;
 }
 
 .fly3 {
   top: 30%;
   left: 55%;
+  max-width: 45%;
 }
 
 .fly2 {
   bottom: 3%;
   left: 55%;
+  max-width: 45%;
 }
 
 .fly1 {
@@ -327,18 +449,93 @@ img {
   border-radius: 21px;
   width: fit-content;
 }
+@media (max-width: 575px) {
+  .wrap-tab {
+    font-size: 12px;
+  }
+}
 
 .tab-cate {
-  padding: 2px 20px;
+  padding: 2px 30px;
   color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .tab-cate {
+    padding: 2px 20px;
+  }
+}
+@media (max-width: 575px) {
+  .tab-cate {
+    padding: 2px 8px;
+  }
 }
 
 .tab-cate.active {
   background: #6DB6FF;
   border-radius: 24px;
   font-weight: bold;
-  padding: 6px 25px;
-  margin: -6px -3px;
+  padding: 5px 35px;
+  margin: -4px -3px;
+}
+@media (max-width: 767px) {
+  .tab-cate.active {
+    padding: 5px 25px;
+  }
+}
+@media (max-width: 575px) {
+  .tab-cate.active {
+    padding: 5px 13px;
+  }
+}
+
+.btn-search {
+  background: #6DB6FF;
+  border-radius: 24px;
+  border: 0px;
+  color: #FFFFFF;
+  padding: 2px 10px;
+}
+
+.wrap-search {
+  border: 2px solid #FFFFFF;
+  border-radius: 21px;
+  padding-left: 15px;
+}
+
+.input-search {
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.input-search::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.text-dream {
+  border-radius: 25px;
+  outline: none;
+  height: 250px;
+  padding: 20px;
+}
+
+.text-dream::placeholder {
+  color: #D5D5D5;
+}
+
+.div-count {
+  top: 18%;
+}
+@media (max-width: 767px) {
+  .div-count {
+    top: 8%;
+  }
+}
+@media (max-width: 575px) {
+  .div-count {
+    top: 3%;
+  }
 }
 
 /*# sourceMappingURL=ncb.css.map */
