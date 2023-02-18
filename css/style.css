@@ -1,0 +1,79 @@
+@font-face {
+    font-family: gilroy;
+    src: url(../fonts/SVN-GILROY-XBOLD.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: gilroy;
+    src: url(../fonts/SVN-GILROY-BOLD.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: gilroy;
+    src: url(../fonts/SVN-GILROY-REGULAR.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: gilroy;
+    src: url(../fonts/SVN-GILROY-SEMIBOLD.ttf);
+    font-weight: 500;
+}
+.gilroy {
+    font-family: "gilroy", sans-serif;
+}
+
+@font-face {
+    font-family: iciel;
+    src: url(../fonts/GHIOCITYANDDHISTHES-ITALIC.OTF);
+}
+.iciel {
+    font-family: "iciel", sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.semibold {
+    font-weight: 500;
+}
+img {
+    max-width: 100%;
+}
+.p20{
+    font-size: 20px;
+}
+.banner{
+    background: #053a8e;
+}
+.bg-login{
+    padding: 12px 0px;
+    background: #FF4242;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.menu a{
+    text-decoration: none;
+}
+/*.menu .active::after{*/
+/*    content: url("/images/bg-menu1.png");*/
+/*    position: absolute;*/
+/*    left: -9px;*/
+/*    top: -15px;*/
+/*}*/
+.menu .active{
+    position: relative;
+    padding: 10px 5px;
+    background: url("/images/bg-menu1.png") no-repeat center;
+    background-size: cover;
+}
+
+
