@@ -4,6 +4,16 @@ $(document).ready(function(){
         $(this).addClass('active')
         $(this).siblings().removeClass('active')
     })
+    $('.btn-dangnhap').click(function () {
+        $('.box-login').fadeIn();
+        setTimeout(function () {
+            $('.box-login').fadeOut();
+
+        },5000)
+    })
+    $('.icon-x').click(function () {
+        $('.box-login').fadeOut();
+    })
     $('.slide-artist').slick({
         dots: true,
         arrows: false,

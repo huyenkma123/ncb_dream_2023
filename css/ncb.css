@@ -316,8 +316,10 @@ img {
   margin-bottom: 40px;
 }
 
-.category .user-story {
-  padding: 75px 5px 5px;
+@media (max-width: 757px) {
+  .category .user-story {
+    padding: 75px 5px 5px;
+  }
 }
 
 .border-avatar {
@@ -536,6 +538,22 @@ img {
   .div-count {
     top: 3%;
   }
+}
+
+.bg-toast-dangnhap {
+  background: url("../images/bg-dangnhap2.png") no-repeat center;
+  background-size: 100% 100%;
+  width: fit-content;
+  padding: 60px 35px 30px;
+}
+
+.bg-text-dangnhap {
+  background: url("../images/bg-dangnhap.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.box-login {
+  display: none;
 }
 
 /*# sourceMappingURL=ncb.css.map */
