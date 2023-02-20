@@ -355,17 +355,66 @@
         </div>
     </div>
 </footer>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStory">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modalStory" tabindex="-1" aria-labelledby="modalStoryLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalStoryLabel">Câu chuyện</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="px-2">
+                    <div class="user-story text-center">
+                        <div class="border-avatar">
+                            <img src="images/kh1.png" alt="">
+                        </div>
+                        <div class="user-info mt-2">
+                            <div class="bold p20">Nguyen Van ANH</div>
+                            <div class="semibold p18 mb-3">
+                                Người kể chuyện
+                            </div>
+                            <div class="text-start normal p12">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos minima neque quo! Aliquid at consectetur deserunt, dolores fuga illo nisi obcaecati placeat porro recusandae repellat sed, sequi suscipit veniam?
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                <img src="images/heart.png" alt="">
+                                <span>99</span>
+                            </div>
+                            <div class="button-heart d-flex justify-content-evenly align-items-center">
+                                <img src="images/paper-plane1.png" alt="">
+                                <span>99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <script src="public/jquery/jquery.min.js"></script>
+<script src="public/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/app.js?version=20220617005759"></script>
 <script src="public/slick/slick.min.js"></script>
 <script>
+
     function scrollToDiv(_id) {
         jQuery('html, body').animate({
             // scrollTop: jQuery(_id).offset().top - 80
             scrollTop: $(_id).offset().top - 0,
             behavior: 'smooth'
         }, 600);
-
     }
     $(".seemore").click(function () {
         $(this).parent().find(".two-line").toggleClass("d-block");
